@@ -1,5 +1,8 @@
 import { mergeIntervals } from './mergeIntervals'
 
+/**
+ * The problem: https://leetcode.com/problems/merge-intervals/
+ */
 describe('mergeIntervals', () => {
 
   const test = (input: number[][], expected: number[][]) =>
@@ -73,6 +76,15 @@ describe('mergeIntervals', () => {
         [12,13],
       ]
     )
+    test(
+      [
+        [5,10],
+        [6,9],
+      ],
+      [
+        [5,10],
+      ]
+    )
   })
 
   it('duplicates don\'t break anything', () => {
@@ -91,5 +103,11 @@ describe('mergeIntervals', () => {
         [6,9],
       ]
     )
+  })
+
+  it('when a single item received, the result equals to input', () => {
+    test([[5,11]], [[5,11]])
+    test([[1,2]], [[1,2]])
+    test([[2,2]], [[2,2]])
   })
 })
