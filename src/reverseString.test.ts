@@ -24,7 +24,4 @@ describe('reverseString', () => {
   it('string case is preserved', () => {
     test('HelLo', 'oLleH')
   })
-  it('wrong test', () => {
-    test('this is the input', 'WRONG RESULT')
-  })
 })
