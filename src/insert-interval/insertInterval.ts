@@ -1,4 +1,4 @@
-import { mergeIntervals } from "./merge-intervals/merge-intervals";
+import { mergeIntervals } from "../merge-intervals/merge-intervals";
 
 export const insertInterval = (
   intervals: number[][],
