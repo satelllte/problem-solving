@@ -1,4 +1,4 @@
-import { mergeIntervals } from './mergeIntervals'
+import { mergeIntervals } from './merge-intervals'
 
 /**
  * The problem: https://leetcode.com/problems/merge-intervals/

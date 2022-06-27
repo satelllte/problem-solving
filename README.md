@@ -31,3 +31,9 @@ Run all tests in watch mode:
 ```bash
 npm run test:watch
 ```
+
+## Problems
+
+| Name | Solution |
+|---|---|
+| [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/merge-intervals](src/merge-intervals) |
