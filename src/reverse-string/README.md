@@ -1,4 +1,4 @@
-<h1><a href="https://leetcode.com/problems/reverse-string/" target="_blank">344. Reverse String</a></h1>
+# [344. Reverse String](https://leetcode.com/problems/reverse-string/)
 
 <p>Write a function that reverses a string. The input string is given as an array of characters <code>s</code>.</p>
 
