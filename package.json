@@ -1,22 +1,10 @@
 {
   "name": "problem-solving",
   "version": "0.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
     "test": "jest",
     "test:watch": "jest --watch"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/egormesyats/problem-solving.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/egormesyats/problem-solving/issues"
-  },
-  "homepage": "https://github.com/egormesyats/problem-solving#readme",
   "devDependencies": {
     "@types/jest": "^27.4.0",
     "jest": "^27.5.1",
