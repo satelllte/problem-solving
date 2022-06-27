@@ -38,3 +38,4 @@ npm run test:watch
 |---|---|
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/merge-intervals](src/merge-intervals) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/insert-interval](src/insert-interval) |
+| <a href="https://leetcode.com/problems/reverse-string/" target="_blank">344. Reverse String</a> | [src/reverse-string](src/reverse-string) |
