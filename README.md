@@ -1,4 +1,4 @@
-# Problem solving
+# Problem Solving
 
 Solutions of some problems available online (for example, on [LeetCode](https://leetcode.com/problemset/all/)).
 
