@@ -36,6 +36,7 @@ npm run test:watch
 
 | Name | Solution |
 |---|---|
+| [1. Two Sum](https://leetcode.com/problems/two-sum/) | [src/two-sum](src/two-sum) |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/merge-intervals](src/merge-intervals) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/insert-interval](src/insert-interval) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [src/reverse-string](src/reverse-string) |
