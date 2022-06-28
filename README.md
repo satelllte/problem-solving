@@ -40,3 +40,4 @@ npm run test:watch
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/merge-intervals](src/merge-intervals) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/insert-interval](src/insert-interval) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [src/reverse-string](src/reverse-string) |
+| [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [src/min-deci-binary-partitions](src/min-deci-binary-partitions) |
