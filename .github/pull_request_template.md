@@ -13,5 +13,5 @@ Describe the problem, for example:
 ## Checklist
 
 - [ ] Solved
-- [ ] The problem description added into `./src/${PROBLEM_NAME}/README.md` file
+- [ ] The problem description added into `./src/problems/${VENDOR}/${PROBLEM}/README.md` file
 - [ ] The problem linked in **Problems** section of `./README.md` file
