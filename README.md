@@ -40,5 +40,5 @@ npm run test:watch
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/problems/leetcode/0056-merge-intervals](src/problems/leetcode/0056-merge-intervals) |
 | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/problems/leetcode/0057-insert-interval](src/problems/leetcode/0057-insert-interval) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [src/problems/leetcode/0344-reverse-string](src/problems/leetcode/0344-reverse-string) |
-| [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [src/min-deci-binary-partitions](src/min-deci-binary-partitions) |
+| [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [src/problems/leetcode/1689-partitioning-into-minimum-number-of-deci-binary-numbers](src/problems/leetcode/1689-partitioning-into-minimum-number-of-deci-binary-numbers) |
 | Display Number | [src/problems/other/display-number](src/problems/other/display-number) |
