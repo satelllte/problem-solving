@@ -39,6 +39,7 @@ npm run test:watch
 | Vendor | Name | Solution |
 |---|---|---|
 | [LeetCode](https://leetcode.com/) | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [src/problems/leetcode/0001-two-sum](src/problems/leetcode/0001-two-sum) |
+| [LeetCode](https://leetcode.com/) | [17. Letter Combinations of a Phone Number](https://leetcode.com/problems/letter-combinations-of-a-phone-number/) | [src/problems/leetcode/0017-letter-combinations-of-a-phone-number](src/problems/leetcode/0017-letter-combinations-of-a-phone-number) |
 | [LeetCode](https://leetcode.com/) | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/problems/leetcode/0056-merge-intervals](src/problems/leetcode/0056-merge-intervals) |
 | [LeetCode](https://leetcode.com/) | [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/problems/leetcode/0057-insert-interval](src/problems/leetcode/0057-insert-interval) |
 | [LeetCode](https://leetcode.com/) | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [src/problems/leetcode/0344-reverse-string](src/problems/leetcode/0344-reverse-string) |
