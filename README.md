@@ -38,7 +38,7 @@ npm run test:watch
 |---|---|
 | [1. Two Sum](https://leetcode.com/problems/two-sum/) | [src/problems/leetcode/0001-two-sum](src/problems/leetcode/0001-two-sum) |
 | [56. Merge Intervals](https://leetcode.com/problems/merge-intervals/) | [src/problems/leetcode/0056-merge-intervals](src/problems/leetcode/0056-merge-intervals) |
-| [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/insert-interval](src/insert-interval) |
+| [57. Insert Interval](https://leetcode.com/problems/insert-interval/) | [src/problems/leetcode/0057-insert-interval](src/problems/leetcode/0057-insert-interval) |
 | [344. Reverse String](https://leetcode.com/problems/reverse-string/) | [src/reverse-string](src/reverse-string) |
 | [1689. Partitioning Into Minimum Number Of Deci-Binary Numbers](https://leetcode.com/problems/partitioning-into-minimum-number-of-deci-binary-numbers/) | [src/min-deci-binary-partitions](src/min-deci-binary-partitions) |
 | Display Number | [src/problems/other/display-number](src/problems/other/display-number) |

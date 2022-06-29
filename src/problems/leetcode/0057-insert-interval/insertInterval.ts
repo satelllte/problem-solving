@@ -1,4 +1,4 @@
-import { mergeIntervals } from "../problems/leetcode/0056-merge-intervals/merge-intervals";
+import { mergeIntervals } from "../0056-merge-intervals/merge-intervals";
 
 export const insertInterval = (
   intervals: number[][],
