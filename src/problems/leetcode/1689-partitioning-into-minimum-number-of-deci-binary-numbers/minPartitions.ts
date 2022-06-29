@@ -1,4 +1,4 @@
-export const minDeciBinaryPartitions = (n: string): number => {
+export const minPartitions = (n: string): number => {
   let max = -Infinity
 
   const nums = n.split('')
