@@ -25,4 +25,12 @@ describe('letterCombinations', () => {
       'st','su','sv',
     ])
   })
+
+  it('combinations with repeated digits work the same way as non-repeated', () => {
+    expect(letterCombinations('22')).toEqual([
+      'aa','ab','ac',
+      'ba','bb','bc',
+      'ca','cb','cc',
+    ])
+  })
 })
