@@ -1,3 +1,4 @@
+import { describe, test, expect } from 'vitest'
 import { mergeIntervals } from './merge-intervals'
 
 /**
@@ -5,11 +6,11 @@ import { mergeIntervals } from './merge-intervals'
  */
 describe('mergeIntervals', () => {
 
-  const test = (input: number[][], expected: number[][]) =>
+  const _test = (input: number[][], expected: number[][]) =>
     expect(mergeIntervals(input)).toEqual(expected)
 
-  it('merges intervals (sorted)', () => {
-    test(
+  test('merges intervals (sorted)', () => {
+    _test(
       [
         [1,4],
         [4,5],
@@ -20,8 +21,8 @@ describe('mergeIntervals', () => {
     )
   })
 
-  it('merges intervals (unsorted)', () => {
-    test(
+  test('merges intervals (unsorted)', () => {
+    _test(
       [
         [6,8],
         [4,5],
@@ -34,8 +35,8 @@ describe('mergeIntervals', () => {
     )
   })
 
-  it('when no intervals intersected, the result equals to input', () => {
-    test(
+  test('when no intervals intersected, the result equals to input', () => {
+    _test(
       [
         [1,4],
         [8,10],
@@ -47,8 +48,8 @@ describe('mergeIntervals', () => {
     )
   })
 
-  it('when no intervals intersected, the result equals to input (unsorted)', () => {
-    test(
+  test('when no intervals intersected, the result equals to input (unsorted)', () => {
+    _test(
       [
         [8,10],
         [1,4],
@@ -60,8 +61,8 @@ describe('mergeIntervals', () => {
     )
   })
 
-  it('intervals inside others skipped', () => {
-    test(
+  test('intervals inside others skipped', () => {
+    _test(
       [
         [5,10],
         [6,9],
@@ -76,7 +77,7 @@ describe('mergeIntervals', () => {
         [12,13],
       ]
     )
-    test(
+    _test(
       [
         [5,10],
         [6,9],
@@ -87,8 +88,8 @@ describe('mergeIntervals', () => {
     )
   })
 
-  it('duplicates don\'t break anything', () => {
-    test(
+  test('duplicates don\'t break anything', () => {
+    _test(
       [
         [6,9],
         [1,5],
@@ -105,9 +106,9 @@ describe('mergeIntervals', () => {
     )
   })
 
-  it('when a single item received, the result equals to input', () => {
-    test([[5,11]], [[5,11]])
-    test([[1,2]], [[1,2]])
-    test([[2,2]], [[2,2]])
+  test('when a single item received, the result equals to input', () => {
+    _test([[5,11]], [[5,11]])
+    _test([[1,2]], [[1,2]])
+    _test([[2,2]], [[2,2]])
   })
 })

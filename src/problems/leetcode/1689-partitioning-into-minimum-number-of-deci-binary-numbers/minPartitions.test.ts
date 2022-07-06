@@ -1,7 +1,8 @@
+import { describe, test, expect } from 'vitest'
 import { minPartitions } from './minPartitions'
 
 describe('minPartitions', () => {
-  it('works', () => {
+  test('works', () => {
     expect(minPartitions('1')).toEqual(1)
     expect(minPartitions('5')).toEqual(5)
     expect(minPartitions('32')).toEqual(3)

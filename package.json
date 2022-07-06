@@ -2,13 +2,13 @@
   "name": "problem-solving",
   "version": "0.0.1",
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch"
+    "test:types": "tsc",
+    "test:types:watch": "tsc --watch",
+    "test:units": "vitest run",
+    "test:units:watch": "vitest dev"
   },
   "devDependencies": {
-    "@types/jest": "^27.4.0",
-    "jest": "^27.5.1",
-    "ts-jest": "^27.1.3",
-    "typescript": "^4.7.4"
+    "typescript": "4.7.4",
+    "vitest": "0.17.0"
   }
 }

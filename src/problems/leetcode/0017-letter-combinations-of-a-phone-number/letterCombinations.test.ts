@@ -1,18 +1,19 @@
+import { describe, test, expect } from 'vitest'
 import { letterCombinations } from './letterCombinations'
 
 describe('letterCombinations', () => {
-  it('empty input has no output', () => {
+  test('empty input has no output', () => {
     expect(letterCombinations('')).toEqual([])
   })
   
-  it('"1" does not affect output', () => {
+  test('"1" does not affect output', () => {
     expect(letterCombinations('1')).toEqual([])
     expect(letterCombinations('11')).toEqual([])
     expect(letterCombinations('12')).toEqual(['a','b','c'])
     expect(letterCombinations('31')).toEqual(['d','e','f'])
   })
 
-  it('combinations work', () => {
+  test('combinations work', () => {
     expect(letterCombinations('23')).toEqual([
       'ad','ae','af',
       'bd','be','bf',
@@ -26,7 +27,7 @@ describe('letterCombinations', () => {
     ])
   })
 
-  it('combinations with repeated digits work the same way as non-repeated', () => {
+  test('combinations with repeated digits work the same way as non-repeated', () => {
     expect(letterCombinations('22')).toEqual([
       'aa','ab','ac',
       'ba','bb','bc',

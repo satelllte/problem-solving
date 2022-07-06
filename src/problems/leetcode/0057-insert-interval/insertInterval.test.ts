@@ -1,3 +1,4 @@
+import { describe, test, expect } from 'vitest'
 import { insertInterval } from './insertInterval'
 
 /**
@@ -5,11 +6,11 @@ import { insertInterval } from './insertInterval'
  */
 describe('insertInterval', () => {
 
-  const test = (interval: number[][], newInterval: number[], expectedResult: number[][]) =>
+  const _test = (interval: number[][], newInterval: number[], expectedResult: number[][]) =>
     expect(insertInterval(interval, newInterval)).toEqual(expectedResult)
 
-  it('works without merging', () => {
-    test(
+  test('works without merging', () => {
+    _test(
       [
         [1,4],
         [5,6],
@@ -23,8 +24,8 @@ describe('insertInterval', () => {
     )
   })
 
-  it('merges intervals if needed', () => {
-    test(
+  test('merges intervals if needed', () => {
+    _test(
       [
         [1,4],
         [5,6],
@@ -38,8 +39,8 @@ describe('insertInterval', () => {
     )
   })
 
-  it('doesn\'t change anything if interval is inside wider one', () => {
-    test(
+  test('doesn\'t change anything if interval is inside wider one', () => {
+    _test(
       [
         [2,10],
       ],
