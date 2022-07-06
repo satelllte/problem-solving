@@ -2,7 +2,7 @@
 
 Solutions of some problems available online (for example, on [LeetCode](https://leetcode.com/problemset/all/)).
 
-[![CI](https://github.com/satelllte/problem-solving/actions/workflows/ci.yml/badge.svg)](https://github.com/satelllte/problem-solving/actions/workflows/ci.yml)
+[![CI](https://github.com/satelllte/problem-solving/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/satelllte/problem-solving/actions/workflows/ci.yml?query=branch:main)
 
 ## Open in Online Code Editor
 
