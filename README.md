@@ -22,16 +22,28 @@ npm install
 
 ## Testing
 
-Run all tests:
+Types:
 
 ```bash
-npm run test
+npm run test:types
 ```
 
-Run all tests in watch mode:
+Units:
 
 ```bash
-npm run test:watch
+npm run test:units
+```
+
+Types (watch mode):
+
+```bash
+npm run test:types:watch
+```
+
+Units (watch mode):
+
+```bash
+npm run test:units:watch
 ```
 
 ## Problems

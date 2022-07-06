@@ -2,8 +2,10 @@
   "name": "problem-solving",
   "version": "0.0.1",
   "scripts": {
-    "test": "vitest run",
-    "test:watch": "vitest dev"
+    "test:types": "tsc",
+    "test:types:watch": "tsc --watch",
+    "test:units": "vitest run",
+    "test:units:watch": "vitest dev"
   },
   "devDependencies": {
     "typescript": "4.7.4",
